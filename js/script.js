@@ -8,7 +8,7 @@ $(".imagetoggle0").toggle();
 });
 $(".imagetoggle2 , .imagetoggle3").click(function(){
 $("#dotext2").toggle();
-$("#imagetoggle2").toggle();
+$(".imagetoggle2").toggle();
 });
 $(".imagetoggle4 , .imagetoggle5").click(function(){
 $("#dotext3").toggle();
