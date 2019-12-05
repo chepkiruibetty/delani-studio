@@ -1,9 +1,13 @@
 $(document).ready(function(){
  $("#dotext").hide(); 
-  
+ $("#dotext2").hide(); 
 $(".imagetoggle0 , .imagetoggle1").click(function(){
 $("#dotext").toggle();
 $(".imagetoggle0").toggle();
+});
+$(".imagetoggle2 , .imagetoggle3").click(function(){
+$("#dotext2").toggle();
+$("#imagetoggle2").toggle();
 });
 
 });
