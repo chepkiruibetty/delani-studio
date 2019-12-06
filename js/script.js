@@ -15,4 +15,5 @@ $("#dotext3").toggle();
 $(".imagetoggle4").toggle();    
 });
 
+
 });
