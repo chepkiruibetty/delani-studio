@@ -44,11 +44,12 @@
 	text-align:center;
 	padding-top:2%;
 }
-.we-do > h3{
-	
-}
+
 #we{
 	margin-left: 0%;
+}
+#dotext,#dotext2,#dotext3{
+	font-size:20px;
 }
 
 
