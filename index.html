@@ -111,42 +111,117 @@
           <br><br>
           <div class="row">
               <div class="col-md-2">
-              <img src="./assets/portfolio/work1.jpg">
+              <img src="./assets/portfolio/work1.jpg" class="img1">
+              <div id="overlay">
               <p>Project 1</p>
               </div>
+              </div>
               <div class="col-md-2">
-              <img src="./assets/portfolio/work2.jpg">
+              <img src="./assets/portfolio/work2.jpg" class="img1">
+              <div id="overlay">
               <p>Project 2</p>
               </div>
-              <div class="col-md-2">
-              <img src="./assets/portfolio/work3.jpg">
-              <p>Project 3</p>
               </div>
               <div class="col-md-2">
-              <img src="./assets/portfolio/work4.jpg">
+              <img src="./assets/portfolio/work3.jpg" class="img1">
+              <div id="overlay">
+              <p>Project 3</p>
+              </div>
+              </div>
+              <div class="col-md-2">
+              <img src="./assets/portfolio/work4.jpg" class="img1">
+              <div id="overlay">
               <p>Project 4</p>
+              </div>
               </div>
           </div>
           <div class="row pb-5">
               <div class="col-md-2">
-                  <img src="./assets/portfolio/work5.jpg">
+                  <img src="./assets/portfolio/work5.jpg" class="img1">
+                  <div id="overlay">
                   <p>Project 5</p>
+                  </div>
               </div>
               <div class="col-md-2">
-                  <img src="./assets/portfolio/work6.jpg">
+                  <img src="./assets/portfolio/work6.jpg" class="img1">
+                  <div id="overlay">
                   <p>Project 6</p>
+                  </div>
               </div>
               <div class="col-md-2">
-                  <img src="./assets/portfolio/work7.jpg">
+                  <img src="./assets/portfolio/work7.jpg" class="img1">
+                  <div id="overlay">
                   <p>Project 7</p>
               </div>
-              <div class="col-md-2">
-                  <img src="./assets/portfolio/work8.jpg">
-                  <p>Project 8</p>
               </div>
-          </div>
-          </div>
-      </div>
+              <div class="col-md-2">
+                  <img src="./assets/portfolio/work8.jpg" class="img1">
+                  <div id="overlay">
+                  <p>Project 8</p>
+                  </div>
+
+                 </div>
+                </div>
+               </div>
+             </div>
+             <section class="contactme">
+                <div class="container-fluid myform">
+                  <img
+                    src="./images/backgrounds/c_image.jpg"
+                    class="img-fluid contactme"
+                    alt=""
+                  />
+                  <div class="container mycontact">
+                    <h3 class="text-center myhead">contact us</h3>
+                    <div class="form">
+                      <form
+                        action="#"
+                        method="POST"
+                        onsubmit="event.preventDefault()"
+                        id="form"
+                      >
+                        <div class="row">
+                          <div class="col-md-6">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Name..."
+                              required
+                              id="name"
+                            />
+                          </div>
+                          <div class="col-md-6">
+                            <input
+                              type="email"
+                              class="form-control"
+                              placeholder="Email..."
+                              required
+                              id="email"
+                            />
+                          </div>
+                        </div>
+                        &nbsp;
+                        <textarea
+                          placeholder="Your message here..."
+                          cols="30"
+                          rows="2"
+                          id="textarea"
+                          class="form-control"
+                        ></textarea>
+                        <button
+                          class="btn btn-primary submitme"
+                          onsubmit="popUp()"
+                          onsubmit="event.preventDefault()"
+                          id="cta"
+                          type="submit"
+                          data-target="#myModal"
+                        >
+                          submit
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
     
     
 </body>
