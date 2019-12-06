@@ -13,8 +13,14 @@
     color:white;
 }
 .about{
-    text-align:center;
+	text-align:center;
+	font-size:25px;
     
+}
+.row{
+	display: flex;
+	justify-content: space-around;
+	justify-content: space-evenly;
 }
 .service{
 	text-align:center;
@@ -24,6 +30,7 @@
 	height:60vh;
 	left:0;
 	top:0;
+	background-repeat: no-repeat;
 }
 .service2{
 	position:absolute;
@@ -31,15 +38,19 @@
 	left:50%;
 	transform: translate(-50%, -50%);
 	color:white;
+	font-size:25px;
 }
-.container-wedo{
-	margin-left:200px;
+.we-do{
+	text-align:center;
+	padding-top:2%;
 }
-.container-wedo{
-	padding-top: 5vh;
-	height: 50vh;
-	overflow-x: hidden;
-	text-align: center;
-	overflow-y: hidden;
+.we-do > h3{
 	
 }
+#we{
+	margin-left: 0%;
+}
+
+
+	 
+	
