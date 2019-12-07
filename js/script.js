@@ -14,6 +14,9 @@ $(".imagetoggle4 , .imagetoggle5").click(function(){
 $("#dotext3").toggle();
 $(".imagetoggle4").toggle();    
 });
-
-
 });
+$(document).ready(function(){
+    $("form").submit(function(){
+      alert("Thanks your message has been received");
+    });
+  });
