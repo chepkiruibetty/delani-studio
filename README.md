@@ -50,7 +50,7 @@ My website is not quite responsive, but i am working on  it making it work bette
 
 - My Technical Mentor:Lawrence Karanja
 - My contacts:+254727325535
-- email:chepkiruibetty@gmail.com
+- email:chepkiruibetty64@gmail.com
 
 ## Licence
 
