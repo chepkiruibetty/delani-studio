@@ -10,17 +10,19 @@ This is a site which mainly deals with product management,design and development
 
 ## Behaviour Driven Development(BDD)
 
-Landing Page
+ 1.Landing Page
 
-Mouse-Icon: "Smooth Scrolls to the next page. Mouse icon has a bouncing effect."
+ Mouse-Icon: "Smooth Scrolls to the next page. Mouse icon has a bouncing effect."
 What We Do Section
 
 Icons: "Click on the icons to display their descriptions."
 Descriptions: "Click on the descriptions again to hide them and to display the icons."
-Portfolio Section
+
+2.Portfolio Section
 
 Images: "Hover on each image to display their respective descriptions."
-Contact Us Section
+
+3.Contact Us Section
 
 INPUT: "Fill all forms and Submit"
 OUTPUT: "Thanks for being our client,your message has been received"
@@ -28,11 +30,10 @@ OUTPUT: "Thanks for being our client,your message has been received"
 
 ## Setup/Installation Requirements
 
-Open terminal (CTRL ALT T)
-git clone https:https://github.com/chepkiruibetty/delani-studio
-cd portfolio
-easy-to-understand
-use atom . or code . to open the clone repo on Atom or VS-code respectively
+- Open terminal (CTRL ALT T)
+- git clone https:https://github.com/chepkiruibetty/delani-studio
+- cd delani-studio
+- use atom . or code . to open the clone repo on Atom or VS-code respectively
 
 ## Known Bugs
 
