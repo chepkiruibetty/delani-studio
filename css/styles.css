@@ -77,3 +77,28 @@
 .imagehover:hover {
 	opacity: 0.3;
 }
+#name,
+#email,
+#textarea {
+  background: transparent;
+  color:white;
+  height:9vh;
+  font-size:20px;
+}
+.contactme{
+background:url(../assets/backgrounds/c_image.jpg);
+height:48vh;
+background-repeat: no-repeat;	
+}
+#submit{
+ font-size:20px;
+  background-color:blue;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+

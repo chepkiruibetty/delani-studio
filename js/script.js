@@ -16,7 +16,7 @@ $(".imagetoggle4").toggle();
 });
 });
 $(document).ready(function(){
-    $("form").submit(function(){
-      alert("Thanks your message has been received");
-    });
-  });
+$("form").submit(function(){
+alert("Thanks  for being our client ,your message has been received");
+});
+});
