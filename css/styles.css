@@ -1,8 +1,9 @@
-*{
-	padding:0;
-	margin:0;
-	box-sizing:border-box;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
+
 .landingpage {
 	background: url(../assets/backgrounds/h_img.jpg);
 	height: 100vh;
@@ -13,12 +14,17 @@
 
 .landingtext {
 	position: absolute;
-	top: 50%;
+	top: 65%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
-	font-size:20px;
-	text-align:center;
+	font-size: 20px;
+	text-align: center;
+}
+
+.mymouse {
+	position: relative;
+	padding-top: 43%;
 }
 
 .about {
@@ -84,48 +90,55 @@
 .imagehover:hover {
 	opacity: 0.3;
 }
+
 #name,
 #email,
 #textarea {
-  background: transparent;
-  color:white;
-  height:9vh;
-  font-size:20px;
+	background: transparent;
+	color: white;
+	height: 9vh;
+	font-size: 20px;
 }
-.contactme{
-background:url(../assets/backgrounds/c_image.jpg);
-height:48vh;
-background-repeat: no-repeat;	
+
+.contactme {
+	background: url(../assets/backgrounds/c_image.jpg);
+	height: 48vh;
+	background-repeat: no-repeat;
 }
-#submit{
- font-size:20px;
-  background-color:blue;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
+
+#submit {
+	font-size: 20px;
+	background-color: blue;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
 }
-.mouse{
+
+.mouse {
 	animation: pulse 5s infinite;
 	padding-top: 2vh;
 	animation-duration: 2s;
 	animation-name: mymouse;
-  }
-  @keyframes mymouse{
+}
+
+@keyframes mymouse {
+
 	0%,
 	20%,
 	50%,
 	80%,
 	100% {
-	  transform: translateY(0);
+		transform: translateY(0);
 	}
-	40% {
-	  transform: translateY(-30px);
-	}
-	60% {
-	  transform: translateY(-15px);
-	}
-  } 
 
+	40% {
+		transform: translateY(-30px);
+	}
+
+	60% {
+		transform: translateY(-15px);
+	}
+}
