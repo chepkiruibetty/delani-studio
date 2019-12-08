@@ -30,10 +30,13 @@
 
 }
 
-.row {
+.myport {
+	text-align: center !important;
+}
+
+.whatwedo {
 	display: flex;
 	justify-content: space-around;
-	justify-content: space-evenly;
 }
 
 .service {
@@ -48,10 +51,10 @@
 }
 
 .service2 {
-	/* position: absolute; */
-	/* top: 50%;
+	position: absolute;
+	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%); */
+	transform: translate(-50%, -50%);
 	color: white;
 
 }
@@ -93,7 +96,7 @@
 #textarea {
 	background: transparent;
 	color: white;
-	height: 9vh;
+
 
 }
 
@@ -138,15 +141,4 @@
 	60% {
 		transform: translateY(-15px);
 	}
-}
-
-/*media queries*/
-@media only screen and (max-width: 720px) {
-
-	.imagehover:hover {
-		opacity: 0.3;
-	}
-
-	.overlay {}
-
 }
