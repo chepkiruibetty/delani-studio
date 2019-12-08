@@ -26,12 +26,12 @@
 
 .mymouse {
 	position: relative;
-	padding-top: 43%;
+	padding-top: 30%;
 }
 
 .about {
 	text-align: center;
-	font-size: 25px;
+	
 
 }
 
@@ -58,7 +58,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
-	font-size: 25px;
+	
 }
 
 .we-do {
