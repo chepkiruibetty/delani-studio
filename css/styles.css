@@ -96,13 +96,11 @@
 #textarea {
 	background: transparent;
 	color: white;
-
-
 }
 
 .contactme {
 	background: url(../assets/backgrounds/c_image.jpg);
-	height: 80vh;
+	height: 60vh;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -117,7 +115,9 @@
 	text-decoration: none;
 	cursor: pointer;
 }
+.mycontact{
 
+}
 .mouse {
 	animation: pulse 5s infinite;
 	padding-top: 2vh;
