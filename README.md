@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a site which mainly deals with product management,design and development
+This ia a site which deals with design,product management and development
 
 ## Behaviour Driven Development(BDD)
 
