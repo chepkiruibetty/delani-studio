@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -75,7 +77,6 @@
 }
 
 .overlay {
-	color: white;
 	font-size: 20px;
 	position: absolute;
 	top: 50%;
@@ -84,7 +85,13 @@
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	text-align: center;
-
+	padding: 30px;
+	background-color: transparent;
+	border-style: solid;
+	border-width: medium;
+	font-weight: bold;
+	color: white;
+	display: none;
 }
 
 .imagehover:hover {
