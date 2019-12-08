@@ -4,7 +4,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-size:20px;
+	font-size: 20px;
 }
 
 .landingpage {
@@ -26,7 +26,7 @@
 
 .about {
 	text-align: center;
-	
+
 
 }
 
@@ -37,9 +37,9 @@
 }
 
 .service {
-	text-align: center;
 	background: url(../assets/backgrounds/s_image.jpg);
 	position: relative;
+	background-position: center;
 	width: 100%;
 	height: 60vh;
 	left: 0;
@@ -48,12 +48,12 @@
 }
 
 .service2 {
-	position: absolute;
-	top: 50%;
+	/* position: absolute; */
+	/* top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); */
 	color: white;
-	
+
 }
 
 .we-do {
@@ -94,13 +94,14 @@
 	background: transparent;
 	color: white;
 	height: 9vh;
-	
+
 }
 
 .contactme {
 	background: url(../assets/backgrounds/c_image.jpg);
-	height: 48vh;
+	height: 50vh;
 	background-repeat: no-repeat;
+	color: white;
 }
 
 #submit {
@@ -137,4 +138,15 @@
 	60% {
 		transform: translateY(-15px);
 	}
+}
+
+/*media queries*/
+@media only screen and (max-width: 720px) {
+
+	.imagehover:hover {
+		opacity: 0.3;
+	}
+
+	.overlay {}
+
 }
